@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../src/Settlement.sol";
+import "../contracts/Settlement.sol";
 
 contract SettlementTest is Test {
     Settlement public settlement;
